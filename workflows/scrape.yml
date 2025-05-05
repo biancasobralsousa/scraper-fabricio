@@ -30,3 +30,6 @@ jobs:
           git add .
           git commit -m "Atualização automática da tabela legislativa" || echo "Nada para commitar"
           git push
+
+          #Teste funcionamento
+        

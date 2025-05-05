@@ -24,3 +24,5 @@ URL_CONSULTA = f"{URL_BASE}/consulta-producao.aspx?autor=214"
 def extrair_links_processo():
     r = requests.get
 
+# Salva a tabela no repositório como CSV
+df_final.to_csv("tabela_legislativa.csv", index=False)

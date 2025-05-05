@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1N2ivjL19HhO9k45wxpd0-cO7h_78gwtP
 """
 
-!pip install requests beautifulsoup4 pandas PyMuPDF tqdm
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd

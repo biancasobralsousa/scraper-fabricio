@@ -24,3 +24,5 @@ def extrair_links_processo():
 
 # Salva a tabela no repositório como CSV
 df_final.to_csv("tabela_legislativa.csv", index=False)
+
+#Teste funcionamento
